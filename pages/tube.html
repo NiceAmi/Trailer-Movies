@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch&family=Lobster&family=Lobster+Two:ital@1&display=swap"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Grenze+Gotisch&family=Lobster&family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="icon" type="image/x-icon" href="../media/icon.ico">
+
+    <title>TRAItube</title>
+</head>
+
+<body>
+    <div class="top">
+        <img src="../media/logo.png" id="logo" alt="no img">
+        <div>
+            <h1>TRAItube</h1><br>
+            <h2>The best movie trailer in the world</h2>
+        </div>
+
+        <div id="watch">
+            <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
+        </div>
+    </div>
+
+
+    <div id="Udetails">
+        <span id="userName"></span>
+        <span id="fname"></span>
+        <span id="lname"></span>
+        <span id="dateOfBirth"></span>
+        <span id="age"></span>
+        <span id="email"></span>
+    </div>
+
+    <div class="all">
+        <div class="commerciall">
+            <p>COCA COLA</p>
+            <div class="add1info">
+                <span>When you are really thirsty!!! </span>
+
+            </div>
+            <video controls autoplay>
+                <source src="../media/cocacola left.mp4" type="video/mp4" />
+            </video>
+        </div>
+
+        <div id="uploadPopup" class="popup">
+            <h2>Upload New Video</h2>
+            <input type="text" id="popupVideoName" placeholder="Enter video name...">
+            <input type="text" id="popupVideoTitle" placeholder="Enter video title...">
+            <input type="text" id="popupVideoCreator" placeholder="Enter video creator...">
+            <input type="text" placeholder="Add by user..." id="popupAddByUser" readonly>
+            <input type="file" id="popupFileInput" accept="video/*">
+            <button id="uploadVideoBtn">Upload</button>
+            <button id="closePopupBtn">X</button>
+        </div>
+        <div class="container">
+            <h3>Editing movie data</h3>
+            <label>Add by user:</label><br>
+            <input type="text" placeholder="User name..." id="addByUser"><br>
+            <label>Movie name:</label><br>
+            <input type="text" placeholder="Edit the name of the movie..." id="mName"><br>
+            <label>Movie title:</label><br>
+            <input type="text" placeholder="Edit the title of the movie..." id="mTitle"><br>
+            <label>Movie creator:</label><br>
+            <input type="text" placeholder="Edit the creator of the movie..." id="mCreator"><br>
+            <label>Movie added:</label><br>
+            <input type="text" placeholder="Edit date..." id="mAdded"><br>
+            <label>URL:</label><br>
+            <input type="text" placeholder="Change URL..." id="mUrl" name="mUrl"><br>
+            <div class="btn">
+                <button id="sedit">Set edit Movie</button>
+                <button id="uploadBtn">Upload Video</button>
+                <button id="out">Log-Out</button>
+            </div>
+            <div class="loader" id="loader"></div>
+            <div class="sMovie">
+                <div class="showMovies" id="showMovies">
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="notification" id="birthdayNotification">
+            <span class="message">It's your birthday! <br>HAPPY BIRTHDAY from TREItube!</span><br>
+            <button class="closeButton" id="closeButton">Close</button>
+        </div>
+
+        <div class="commercialr">
+            <p>ICE POP</p>
+            <div class="add1info">
+                <span>The best refreshing drink<br> in the end of the day! </span>
+
+            </div>
+            <video autoplay controls>
+                <source src="../media/icepop - Right.mp4" type="video/mp4" />
+            </video>
+
+        </div>
+    </div>
+    <footer>
+        <p>
+            TRAItube Ltd. | Specialists in quality trailers Movie | For amateurs and professionals | Call us at:
+            55598475 , Email: traitube@tube.com | This site created by Ami Nice @copyright 2023.
+        </p>
+    </footer>
+    
+    <script type="module" src="../scripts/tube.js" defer></script>
+</body>
+
+</html>

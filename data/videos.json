@@ -1,0 +1,64 @@
+{
+    "videos": [
+        {
+            "addByUser": "johnsmith",
+            "Name": "CAPTAIN AMERICA: BRAVE NEW WORLD",
+            "title": "Science fiction",
+            "creator": "Screen Culture",
+            "added": "23-02-2013",
+            "viewes": "4645",
+            "subscribe": "4786",
+            "url": "../media/CAPTAIN AMERICA.mp4"
+        },
+        {
+            "addByUser": "johnsmith",
+            "Name": "COBWEB",
+            "title": "Horror",
+            "creator": "KinoCheck Horror",
+            "added": "27-09-2019",
+            "viewes": "4564",
+            "subscribe": "464",
+            "url": "../media/COBWEB.mp4"
+        },
+        {
+            "addByUser": "evawilson",
+            "Name": "Synthetica",
+            "title": "Horror",
+            "creator": "Jeff Synthesized",
+            "added": "13-06-2019",
+            "viewes": "24567",
+            "subscribe": "123128",
+            "url": "../media/Synthetica.mp4"
+        },
+        {
+            "addByUser": "alicebrown",
+            "Name": "SPIDER-MAN: NO WAY HOME",
+            "title": "Science fiction",
+            "creator": "60FpsGoodness",
+            "added": "03-11-2020",
+            "viewes": "78654",
+            "subscribe": "3456",
+            "url": "../media/SPIDER-MAN.mp4"
+        },
+        {
+            "addByUser": "bob123",
+            "Name": "The Exorcist",
+            "title": "Horror",
+            "creator": "Warner Bros. Entertainment",
+            "added": "05-12-2021",
+            "viewes": "45645",
+            "subscribe": "123128",
+            "url": "../media/The Exorcist.mp4"
+        },
+        {
+            "addByUser": "janedoe",
+            "Name": "THE EQUALIZER 3",
+            "title": "Action",
+            "creator": "Sony Pictures Entertainment",
+            "added": "10-10-2010",
+            "viewes": "12315",
+            "subscribe": "123128",
+            "url": "../media/THE EQUALIZER 3.mp4"
+        }
+    ]
+}
